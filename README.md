@@ -12,7 +12,7 @@ The network consists of 4 convolutional layers followed by two fully connected l
 The CNN+FC had  a very large number of parameters and is prone to overfitting. So we tried a pure CNN net. And since big convolution filters can be replaced with more layers of convolution with smaller size filters, which reduces the total number of parameters to train and can obtain similar results, we replaced 11x11, 5x5 filters with multiple layers of 3x3 filters
 
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
-This architecture uses resNet50 without the last fully-connect layer and pooling layer as feature extractor, and then uses upprojection blocks to upsample the extracted feature. 
+This architecture employs a fully convolutional architecture, which ﬁrst extracts image features by pretrained ResNet-50 network. We do transfer learning by replacing the fully connected layer of ResNet-50 with upsampling blocks to recover the size of depth map. The upsampling block combines residual learning concept.
 
 ## TRAIN PLOTS
 #### METHOD 1  -  CNN+FC Network:
@@ -39,5 +39,5 @@ We used the following data augmentation techniques :
 * Randomly scale the input image (R, G, B) using a 3 tuple with random values picked from [0.8,1.2] so that the dependence on color intensities    in input image will not affect depth image.
 
 #### Dataset
-
+NYU Depth dataset
 
