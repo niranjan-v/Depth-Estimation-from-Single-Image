@@ -14,13 +14,24 @@ The CNN+FC had  a very large number of parameters and is prone to overfitting. S
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 This architecture uses resNet50 without the last fully-connect layer and pooling layer as feature extractor, and then uses upprojection blocks to upsample the extracted feature. 
 
-## RESULTS
+## TRAIN PLOTS
 #### METHOD 1  -  CNN+FC Network:
 <p align='center'>
 <img src='./outputs/plot1.png'/ hspace="20">  
 </p>
 
+#### METHOD 2  -  CNN:
+<p align='center'>
+<img src='./outputs/plot2.png'/ hspace="20">  
+</p>
 
+#### METHOD 3 - CNN-RESIDUAL NETWORK:
+
+## RESULTS
+#### METHOD 3 - CNN-RESIDUAL NETWORK:
+<p align='center'>
+<img src='./outputs/im1_mod3.png'/ hspace="20">  
+</p>
 
 ##### Data Augmentation : 
 We used the following data augmentation techniques : 
