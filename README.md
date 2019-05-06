@@ -35,7 +35,7 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 ## RESULTS
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
-<img src='./outputs/im1_mod3.png'/ hspace="20">  
+<img src='./outputs/im1_mod3.png'/ hspace="20" style="width: 50%; height: 50%">  
 </p>
 
 #### METHOD 4 - RESIDUAL-FINE NETWORK:
@@ -49,5 +49,5 @@ We used the following data augmentation techniques :
 * Randomly scale the input image (R, G, B) using a 3 tuple with random values picked from [0.8,1.2] so that the dependence on color intensities    in input image will not affect depth image.
 
 ## Dataset
-NYU Depth dataset
+NYU Depth dataset V2
 
