@@ -52,8 +52,8 @@ In this method, we employ a two network architecture consisting of a coarse netw
 
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
-<img src='./outputs/plot3.png'/ hspace="20" width="400">  
-<img src='./outputs/plot_ap3.png'/ hspace="20" width="400">  
+<img src='./outputs/plot3.png'/ hspace="20" width="350">  
+<img src='./outputs/plot_ap3.png'/ hspace="20" width="350">  
 </p>
 left training on NYU, right Apollo
 
@@ -73,6 +73,16 @@ Left to right : Original image , Depth image output by fine network , Depth imag
 <img src='./outputs/img3.png'/ hspace="20" > <br>
 <img src='./outputs/img4.png'/ hspace="20" > <br>
 <img src='./outputs/img1.png'/ hspace="20" > <br>
+</p>
+
+#### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK ON APOLLOSCAPE DATASET
+Left to right : Original image , Depth image output by fine network , Depth image output by residual network,  original depth map from Kinect camera
+<p align='center'>
+<img src='./outputs/ap5.png'/ hspace="20" > <br>
+<img src='./outputs/ap2.png'/ hspace="20" > <br> 
+<img src='./outputs/ap3.png'/ hspace="20" > <br>
+<img src='./outputs/ap4.png'/ hspace="20" > <br>
+<img src='./outputs/ap1.png'/ hspace="20" > <br>
 </p>
 
 #### COMPARISON BETWEEN MODELS
