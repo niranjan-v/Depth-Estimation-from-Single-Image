@@ -39,6 +39,9 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 #### METHOD 1  -  CNN+FC Network:
 <p align='center'>
 <img src='./outputs/plot1.png'/ hspace="20" width="400">  
+  CNN+FC Network
+<img src='./outputs/plot2.png'/ hspace="20" width="400">  
+  CNN
 </p>
 
 #### METHOD 2  -  CNN:
