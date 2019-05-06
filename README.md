@@ -13,13 +13,13 @@ $ pip3 install -r requirements.txt
 There are train and test files for each network. For eg these are the commands to use residual fine network
 ### Train
 ```sh
-$ python3 train.py
+$ python3 train_residual_fine.py
 ```
 
 ### Test
 To generate the images given in results
 ```sh
-$ python3 test.py
+$ python3 test_residual_fine.py
 ```
 
 ## Objective
