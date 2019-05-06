@@ -1,6 +1,9 @@
 # Depth-Estimation-from-Single-Image
 Depth Estimation from Single Image using CNN, CNN+FC, CNN-Residual network
 
+## Objective
+Given a single image we have to estimate its depth map.
+
 ## REPOSITORY STRUCTURE
 src/ folder has source codes for training and testing on NYU depth dataset
 src_apollo/ directory has source codes for training and testing on Apolloscape dataset
@@ -9,7 +12,7 @@ src_apollo/ directory has source codes for training and testing on Apolloscape d
 ```sh
 $ pip3 install -r requirements.txt
 ```
-## Run
+## RUN
 There are train and test files for each network. For eg these are the commands to use residual fine network
 ### Train
 ```sh
@@ -22,10 +25,7 @@ To generate the images given in results
 $ python3 test_residual_fine.py
 ```
 
-## Objective
-Given a single image we have to estimate its depth map.
-
-## Solution Approaches
+## SOLUTION APPROACHES
 #### METHOD 1  -  CNN+FC Network:
 The network consists of 4 convolutional layers followed by two fully connected layers. The number of parameters in the fully connected layers are 233989700 which is much higher the number of parameters in convolutional layers which is 51040. The presence of fully connected layers allows overfitting the model on training set but fails to provide reasonable performance on test set 
 
@@ -57,7 +57,7 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 ## RESULTS
-#### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK
+#### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK ON NYU DATASET
 Left to right : Original image , Depth image output by fine network , Depth image output by residual network,  original depth map from Kinect camera
 <p align='center'>
 <img src='./outputs/img5.png'/ hspace="20" > <br>
@@ -97,12 +97,12 @@ MSE Loss : 15.98
 MSE Loss : 10.32
 </p>
 
-### Data Augmentation : 
+### DATA AUGMENTATION : 
 We used the following data augmentation techniques : 
 * Horizontal Flipping of both depth and original image.
-* Randomly scale the input image (R, G, B) using a 3 tuple with random values picked from [0.8,1.2] so that the dependence on color intensities    in input image will not affect depth image.
+* Randomly scale the input image (R, G, B) using a 3 tuple with random values picked from [0.8,1.2] so that the dependence on color intensities in input image will not affect depth image.
 
-## Dataset
-* NYU Depth dataset V2
-* ApolloScape dataset
+## DATASETS
+* NYU Depth dataset V2 - has indoor images
+* ApolloScape dataset for autonomous driving - has outdoor scenes
 
