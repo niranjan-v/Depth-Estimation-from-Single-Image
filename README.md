@@ -1,6 +1,27 @@
 # Depth-Estimation-from-Single-Image
 Depth Estimation from Single Image using CNN, CNN+FC, CNN-Residual network
 
+## REPOSITORY STRUCTURE
+src/ folder has source codes for training and testing on NYU depth dataset
+src_apollo/ directory has source codes for training and testing on Apolloscape dataset
+
+## SOFTWARE REQUIREMENTS
+```sh
+$ pip3 install -r requirements.txt
+```
+## Run
+There are train and test files for each network. For eg these are the commands to use residual fine network
+### Train
+```sh
+$ python3 train.py
+```
+
+### Test
+To generate the images given in results
+```sh
+$ python3 test.py
+```
+
 ## Objective
 Given a single image we have to estimate its depth map.
 
@@ -82,5 +103,6 @@ We used the following data augmentation techniques :
 * Randomly scale the input image (R, G, B) using a 3 tuple with random values picked from [0.8,1.2] so that the dependence on color intensities    in input image will not affect depth image.
 
 ## Dataset
-NYU Depth dataset V2
+* NYU Depth dataset V2
+* ApolloScape dataset
 
