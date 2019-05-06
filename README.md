@@ -26,6 +26,9 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
+<p align='center'>
+<img src='./outputs/plot3.png'/ hspace="20" width="400">  
+</p>
 
 #### METHOD 4  -  CNN:
 <p align='center'>
@@ -33,6 +36,15 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 ## RESULTS
+#### METHOD 1  -  CNN+FC Network:
+<p align='center'>
+<img src='./outputs/im1_mod1.png'/ hspace="20" >  
+</p>
+
+#### METHOD 2  -  CNN:
+<p align='center'>
+<img src='./outputs/im1_mod2.png'/ hspace="20" >  
+</p>
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod3.png'/ hspace="20" >  
