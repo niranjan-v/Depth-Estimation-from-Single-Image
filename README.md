@@ -40,8 +40,9 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 Left to right : Original image , Depth image output by our network , original depth map from Kinect camera
 ##### METHOD 1  -  CNN+FC Network:
 <p align='center'>
-<img src='./outputs/im1_mod1.png'/ hspace="20" >  
- MSE Loss : 
+<img src='./outputs/im1_mod1.png'/ hspace="20" > 
+<br>
+MSE Loss : 31.88
 </p>
 
 ##### METHOD 2  -  CNN:
