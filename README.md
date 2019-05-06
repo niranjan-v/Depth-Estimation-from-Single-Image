@@ -36,6 +36,13 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 ## RESULTS
+<p align='center'>
+<img src='./outputs/img1.png'/ hspace="20" > 
+<img src='./outputs/img2.png'/ hspace="20" >
+<img src='./outputs/img3.png'/ hspace="20" > 
+<img src='./outputs/img4.png'/ hspace="20" >
+<img src='./outputs/img5.png'/ hspace="20" > 
+</p>
 #### COMPARISON BETWEEN MODELS
 Left to right : Original image , Depth image output by our network , original depth map from Kinect camera
 ##### METHOD 1  -  CNN+FC Network:
