@@ -17,7 +17,7 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 ## TRAIN PLOTS
 #### METHOD 1  -  CNN+FC Network:
 <p align='center'>
-<img src='./outputs/plot1.png'/ hspace="20" width="48">  
+<img src='./outputs/plot1.png'/ hspace="20" width="200">  
 </p>
 
 #### METHOD 2  -  CNN:
