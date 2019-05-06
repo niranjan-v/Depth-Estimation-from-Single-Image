@@ -36,22 +36,23 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 ## RESULTS
-#### METHOD 1  -  CNN+FC Network:
+#### COMPARISON BETWEEN MODELS
+##### METHOD 1  -  CNN+FC Network:
 <p align='center'>
 <img src='./outputs/im1_mod1.png'/ hspace="20" >  
 </p>
 
-#### METHOD 2  -  CNN:
+##### METHOD 2  -  CNN:
 <p align='center'>
 <img src='./outputs/im1_mod2.png'/ hspace="20" >  
 </p>
 
-#### METHOD 3 - CNN-RESIDUAL NETWORK:
+##### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod3.png'/ hspace="20" >  
 </p>
 
-#### METHOD 4 - RESIDUAL-FINE NETWORK:
+##### METHOD 4 - RESIDUAL-FINE NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod4.png'/ hspace="20">  
 </p>
