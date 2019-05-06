@@ -59,8 +59,8 @@ left training on NYU, right Apollo
 
 #### METHOD 4  -  RESIDUAL-FINE NETWORK:
 <p align='center'>
-<img src='./outputs/plot4.png'/ hspace="20" width="400"> 
-<img src='./outputs/plot_ap4.png'/ hspace="20" width="400">  
+<img src='./outputs/plot4.png'/ hspace="20" width="350"> 
+<img src='./outputs/plot_ap4.png'/ hspace="20" width="350">  
 </p>
 left training on NYU, right Apollo
 
