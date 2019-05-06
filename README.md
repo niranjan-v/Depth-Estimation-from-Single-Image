@@ -33,7 +33,11 @@ The network consists of 4 convolutional layers followed by two fully connected l
 The CNN+FC had  a very large number of parameters and is prone to overfitting. So we tried a pure CNN net. And since big convolution filters can be replaced with more layers of convolution with smaller size filters, which reduces the total number of parameters to train and can obtain similar results, we replaced 11x11, 5x5 filters with multiple layers of 3x3 filters
 
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
-This architecture employs a fully convolutional architecture, which ﬁrst extracts image features by pretrained ResNet-50 network. We do transfer learning by replacing the fully connected layer of ResNet-50 with upsampling blocks to recover the size of depth map. The upsampling block combines residual learning concept.
+In this method, we use a bottleneck type network by first extracting features using pre-trained ResNet-50 and then upsampling these features to match the size of depth map. This architecture employs a fully convolutional architecture, which ﬁrst extracts image features by pretrained ResNet-50 network. We do transfer learning by replacing the fully connected layer of ResNet-50 with upsampling blocks to recover the size of depth map. The upsampling block combines residual learning concept. Each upsampling block itself is a residual network consisting of 3 convolution layers in two branches. The upsampling is done by unpooling the input, each pixel value is mapped to top-left pixel of every 2x2 patch in upsampled image. Convolutions (in two branches) are applied after this unpooling step. Results of this method are much better than the previous two methods.
+
+
+#### METHOD 4 - CNN-RESIDUAL NETWORK WITH COARSE + FINE NETWORKS:
+In this method, we employ a two network architecture consisting of a coarse network and a fine network. The coarse netowrk used is directly the previously used network from method 3. The fine network takes inputs as the original image and the depth image of coarse network, appends them and then applies convolutions over this. This is used because in method 3, the edges are smoothened out and objects are not clearly visible. Using a fine network will enhance the edges and the outputs a finer depth image. This method gives the best performance among all the methods employed.
 
 ## TRAIN PLOTS
 #### METHOD 1  -  CNN+FC Network:
@@ -49,12 +53,16 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
 <img src='./outputs/plot3.png'/ hspace="20" width="400">  
+<img src='./outputs/plot_ap3.png'/ hspace="20" width="400">  
 </p>
+left training on NYU, right Apollo
 
 #### METHOD 4  -  RESIDUAL-FINE NETWORK:
 <p align='center'>
-<img src='./outputs/plot4.png'/ hspace="20" width="400">  
+<img src='./outputs/plot4.png'/ hspace="20" width="400"> 
+<img src='./outputs/plot_ap4.png'/ hspace="20" width="400">  
 </p>
+left training on NYU, right Apollo
 
 ## RESULTS
 #### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK ON NYU DATASET
