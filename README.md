@@ -22,20 +22,20 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 
 #### METHOD 2  -  CNN:
 <p align='center'>
-<img src='./outputs/plot2.png'/ hspace="20">  
+<img src='./outputs/plot2.png'/ hspace="20" width="400">  
 </p>
 
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 
 #### METHOD 4  -  CNN:
 <p align='center'>
-<img src='./outputs/plot4.png'/ hspace="20">  
+<img src='./outputs/plot4.png'/ hspace="20" width="400">  
 </p>
 
 ## RESULTS
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
-<img src='./outputs/im1_mod3.png'/ hspace="20" style="width: 50%; height: 50%">  
+<img src='./outputs/im1_mod3.png'/ hspace="20" >  
 </p>
 
 #### METHOD 4 - RESIDUAL-FINE NETWORK:
