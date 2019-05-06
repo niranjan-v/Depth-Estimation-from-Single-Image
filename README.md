@@ -1,25 +1,25 @@
-# Depth-Estimation-from-Single-Image
+# DEPTH ESTIMATION FROM SINGLE IMAGE
 Depth Estimation from Single Image using CNN, CNN+FC, CNN-Residual network
 
-## Objective
+## OBJECTIVE
 Given a single image we have to estimate its depth map.
 
-## REPOSITORY STRUCTURE
+### REPOSITORY STRUCTURE
 src/ folder has source codes for training and testing on NYU depth dataset
 src_apollo/ directory has source codes for training and testing on Apolloscape dataset
 
-## SOFTWARE REQUIREMENTS
+### SOFTWARE REQUIREMENTS
 ```sh
 $ pip3 install -r requirements.txt
 ```
-## RUN
+### RUN
 There are train and test files for each network. For eg these are the commands to use residual fine network
-### Train
+#### Train
 ```sh
 $ python3 train_residual_fine.py
 ```
 
-### Test
+#### Test
 To generate the images given in results
 ```sh
 $ python3 test_residual_fine.py
