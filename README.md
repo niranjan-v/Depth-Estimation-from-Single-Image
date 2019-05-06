@@ -39,31 +39,6 @@ In this method, we use a bottleneck type network by first extracting features us
 #### METHOD 4 - CNN-RESIDUAL NETWORK WITH COARSE + FINE NETWORKS:
 In this method, we employ a two network architecture consisting of a coarse network and a fine network. The coarse netowrk used is directly the previously used network from method 3. The fine network takes inputs as the original image and the depth image of coarse network, appends them and then applies convolutions over this. This is used because in method 3, the edges are smoothened out and objects are not clearly visible. Using a fine network will enhance the edges and the outputs a finer depth image. This method gives the best performance among all the methods employed.
 
-## TRAIN PLOTS
-#### METHOD 1  -  CNN+FC Network:
-<p align='center'>
-<img src='./outputs/plot1.png'/ hspace="20" width="400">
-</p>
-
-#### METHOD 2  -  CNN:
-<p align='center'>
-<img src='./outputs/plot2.png'/ hspace="20" width="400">  
-</p>
-
-#### METHOD 3 - CNN-RESIDUAL NETWORK:
-<p align='center'>
-<img src='./outputs/plot3.png'/ hspace="20" width="350">  
-<img src='./outputs/plot_ap3.png'/ hspace="20" width="350">  
-</p>
-left training on NYU, right Apollo
-
-#### METHOD 4  -  RESIDUAL-FINE NETWORK:
-<p align='center'>
-<img src='./outputs/plot4.png'/ hspace="20" width="350"> 
-<img src='./outputs/plot_ap4.png'/ hspace="20" width="350">  
-</p>
-left training on NYU, right Apollo
-
 ## RESULTS
 #### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK ON NYU DATASET
 Left to right : Original image , Depth image output by fine network , Depth image output by residual network,  original depth map from Kinect camera
@@ -114,6 +89,31 @@ MSE Loss : 15.98
   <br>
 MSE Loss : 10.32
 </p>
+
+## TRAIN PLOTS
+#### METHOD 1  -  CNN+FC Network:
+<p align='center'>
+<img src='./outputs/plot1.png'/ hspace="20" width="400">
+</p>
+
+#### METHOD 2  -  CNN:
+<p align='center'>
+<img src='./outputs/plot2.png'/ hspace="20" width="400">  
+</p>
+
+#### METHOD 3 - CNN-RESIDUAL NETWORK:
+<p align='center'>
+<img src='./outputs/plot3.png'/ hspace="20" width="350">  
+<img src='./outputs/plot_ap3.png'/ hspace="20" width="350">  
+</p>
+left training on NYU, right training on Apolloscape
+
+#### METHOD 4  -  RESIDUAL-FINE NETWORK:
+<p align='center'>
+<img src='./outputs/plot4.png'/ hspace="20" width="350"> 
+<img src='./outputs/plot_ap4.png'/ hspace="20" width="350">  
+</p>
+left training on NYU, right training on Apolloscape
 
 ### DATA AUGMENTATION : 
 We used the following data augmentation techniques : 
