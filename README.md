@@ -53,11 +53,11 @@ Left to right : Original image , Depth image output by fine network , Depth imag
 #### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK ON APOLLOSCAPE DATASET
 Left to right : Original image , Depth image output by fine network , Depth image output by residual network,  original depth map from Kinect camera
 <p align='center'>
+<img src='./outputs/ap4.png'/ hspace="20" > <br>
+<img src='./outputs/ap1.png'/ hspace="20" > <br>
 <img src='./outputs/ap5.png'/ hspace="20" > <br>
 <img src='./outputs/ap2.png'/ hspace="20" > <br> 
 <img src='./outputs/ap3.png'/ hspace="20" > <br>
-<img src='./outputs/ap4.png'/ hspace="20" > <br>
-<img src='./outputs/ap1.png'/ hspace="20" > <br>
 </p>
 
 #### COMPARISON BETWEEN MODELS
