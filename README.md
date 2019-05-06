@@ -45,6 +45,7 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 <p align='center'>
 <img src='./outputs/im1_mod2.png'/ hspace="20" >  
 </p>
+
 #### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod3.png'/ hspace="20" >  
