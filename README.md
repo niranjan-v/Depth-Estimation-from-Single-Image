@@ -48,16 +48,22 @@ MSE Loss : 31.88
 ##### METHOD 2  -  CNN:
 <p align='center'>
 <img src='./outputs/im1_mod2.png'/ hspace="20" >  
+  <br>
+MSE Loss : 30.33
 </p>
 
 ##### METHOD 3 - CNN-RESIDUAL NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod3.png'/ hspace="20" >  
+  <br>
+MSE Loss : 15.98
 </p>
 
 ##### METHOD 4 - RESIDUAL-FINE NETWORK:
 <p align='center'>
 <img src='./outputs/im1_mod4.png'/ hspace="20">  
+  <br>
+MSE Loss : 10.32
 </p>
 
 ### Data Augmentation : 
