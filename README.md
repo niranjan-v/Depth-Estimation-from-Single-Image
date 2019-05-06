@@ -36,6 +36,8 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 </p>
 
 ## RESULTS
+#### RESULTS FROM FINE NETWORK AND RESIDUAL NETWORK
+Left to right : Original image , Depth image output by fine network , Depth image output by residual network,  original depth map from Kinect camera
 <p align='center'>
 <img src='./outputs/img1.png'/ hspace="20" > <br>
 <img src='./outputs/img2.png'/ hspace="20" > <br> 
