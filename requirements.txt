@@ -1,3 +1,6 @@
 numpy
 cuda
 pytorch
+scipy
+matplotlib
+imageio
