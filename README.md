@@ -30,7 +30,7 @@ This architecture employs a fully convolutional architecture, which ﬁrst extra
 <img src='./outputs/plot3.png'/ hspace="20" width="400">  
 </p>
 
-#### METHOD 4  -  CNN:
+#### METHOD 4  -  RESIDUAL-FINE NETWORK:
 <p align='center'>
 <img src='./outputs/plot4.png'/ hspace="20" width="400">  
 </p>
